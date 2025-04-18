@@ -371,18 +371,6 @@ export default function MachinesStep() {
 
               {/* Contrôles de quantité et CTA */}
               <div className="mt-6 w-full">
-                {/* CTA qui apparaît au survol uniquement si la machine n'est pas déjà sélectionnée - MODIFIÉ POUR APPARAÎTRE EN BAS */}
-                {!isSelected && isHovered && (
-                  <div className="mt-4 flex justify-center">
-                    <button
-                      className="bg-[#c36043] text-white px-6 py-3 rounded-md shadow-lg hover:bg-[#a34e35] transition-colors"
-                      onClick={() => handleAddMachine(machine.id)}
-                    >
-                      Ajouter à ma sélection
-                    </button>
-                  </div>
-                )}
-
                 {/* Contrôles de quantité toujours visibles */}
                 <div className="flex items-center justify-center">
                   <button
