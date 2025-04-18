@@ -334,7 +334,7 @@ export const accessories: Accessory[] = [
   },
   {
     id: "accessory-4",
-    name: "Gobelet bio-compostable",
+    name: "Gobelet bio-compostable 20cl",
     description: "Lot de 50 unités",
     image: "https://www.justeatemps.com/statique/images/front//img/Products/large/16293.jpg",
     price: 5.49,
